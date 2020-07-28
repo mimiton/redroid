@@ -108,7 +108,7 @@ pubic class Component extends ViewModel {
   xmlns:on="http://com.ritter.framework/eventbind" // 事件处理命名空间
   android:layout_width="match_parent"
   android:layout_height="match_parent">
-  <!-- showText属性值为false，此处的Text组件不会被加载 -->
+  <!-- showText属性值为false，此处的Text组件不会被加载，当属性变为true时，它会自动加载显示，变为false时，又会自动移除隐藏 -->
   <com.mimiton.redroid.component.Text
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -122,3 +122,6 @@ pubic class Component extends ViewModel {
   </com.mimiton.redroid.component.Text>
 </FrameLayout>
 ```
+
+3. 组件嵌套插槽
+  等我休息一下再写。。。
