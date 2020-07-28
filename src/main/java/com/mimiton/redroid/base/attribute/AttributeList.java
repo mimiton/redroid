@@ -5,9 +5,9 @@ import android.util.AttributeSet;
 import java.util.ArrayList;
 
 public class AttributeList extends ArrayList<Attribute> {
-  public static final String NAMESPACE_DIRECTIVE = "http://com.ritter.framework/directive";
-  public static final String NAMESPACE_EVENTBIND = "http://com.ritter.framework/eventbind";
-  public static final String NAMESPACE_DATABIND = "http://com.ritter.framework/databind";
+  public static final String NAMESPACE_DIRECTIVE = "http://com.mimiton.redroid/directive";
+  public static final String NAMESPACE_EVENTBIND = "http://com.mimiton.redroid/eventbind";
+  public static final String NAMESPACE_DATABIND = "http://com.mimiton.redroid/databind";
   private String[] namespacesToDigest = {
     NAMESPACE_DIRECTIVE,
     NAMESPACE_EVENTBIND,
